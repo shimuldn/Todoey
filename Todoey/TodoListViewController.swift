@@ -52,6 +52,7 @@ class TodoListViewController: UITableViewController {
             
             self.defaults.setValue(self.itemArray, forKey: "TodoListArray")
             self.tableView.reloadData()
+            
         }
         alert.addTextField { (alertTextField) in
             alertTextField.placeholder = "Create New Item"
